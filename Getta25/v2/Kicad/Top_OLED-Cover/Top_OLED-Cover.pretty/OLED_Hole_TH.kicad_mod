@@ -1,0 +1,12 @@
+(module kbd:OLED_Hole_TH (layer F.Cu) (tedit 5D8901CB)
+  (fp_text reference SW2 (at 7 8.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value KEY_SWITCH (at -7.4 -8.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole oval (at -5.9 0) (size 2 32.9) (drill oval 0.5 31.4) (layers *.Cu *.Mask))
+  (pad 1 thru_hole oval (at 0 -15.5 90) (size 2 13.65) (drill oval 0.5 12.25) (layers *.Cu *.Mask))
+  (pad 1 thru_hole oval (at 5.9 0) (size 2 32.9) (drill oval 0.5 31.4) (layers *.Cu *.Mask))
+  (pad 1 thru_hole oval (at 0 15.5 90) (size 2 13.65) (drill oval 0.5 12.25) (layers *.Cu *.Mask))
+)

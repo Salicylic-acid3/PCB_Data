@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Top_OLED-Cover)(type KiCad)(uri ${KIPRJMOD}/Top_OLED-Cover.pretty)(options "")(descr ""))
+)
